@@ -34,7 +34,7 @@ npm install
 ```
 Initiate the app:
 ```
-npm start
+npm run develop
 ```
 
 1. Your project will open in a new browser page.
