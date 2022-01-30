@@ -4,7 +4,7 @@ import { Jumbotron, Container, Col, Form, Button, Card, CardColumns } from 'reac
 import Auth from '../utils/auth';
 import { searchGoogleBooks } from '../utils/API';
 import { SAVE_BOOK } from '../utils/mutations';
-import { useMutation } from '@apollo/react-hooks';
+import { useMutation } from '@apollo/client';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 const SearchBooks = () => {
@@ -68,7 +68,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const { data } = await saveBook({ variables: { input: bookToSave } });
+      const response = await saveBook({ variables: { input: bookToSave } });
 
       if (!response.ok) {
         throw new Error('something went wrong!');
