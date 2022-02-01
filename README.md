@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is a book search app built with React.js, Node.js, and GraphQL. My job was to refactor the code to function with GraphQL.
+This is a book search app built with MongoDB, Express.js, React.js, Node.js, and GraphQL - deployed to Heroku. My job was to refactor the code to function with GraphQL.
   
 * [Heroku live application link](https://calm-bastion-15118.herokuapp.com/)
 
@@ -13,10 +13,14 @@ This is a book search app built with React.js, Node.js, and GraphQL. My job was 
 * [Credits](#credits)
 * [Contributions/Forks](#contributions/forks)
 * [Questions](#questions)
-  
+
+![Book Search Engine That Could screenshot-1](./assets/images/screenshot-1.png "screenshot-1")
+![Book Search Engine That Could screenshot-2](./assets/images/screenshot-2.png "screenshot-2")
+![Book Search Engine That Could screenshot-3](./assets/images/screenshot-2.png "screenshot-3")
+
 ## Installation
 
-Users will need Node.js and React.js.
+Users will need MongoDB, Express.js, Node.js, and React.js.
   
 ## Instructions 
 
@@ -28,27 +32,25 @@ Add all dependencies:
 ```
 npm install
 ```
-Initiate the app:
+Start servers:
 ```
 npm run develop
 ```
 
-1. Your project will open in a new browser page.
-2. The page will reload as you make changes in your code editor.
-3. Check the console for errors.
-4. Use ```ctrl``` + ```c``` to stop the React app.
-
 ## Languages & Tools
 
+* MongoDB
+* Express.js
 * JavaScript
 * Node.js
 * React.js
 * GraphQL
+* Heroku
 
 ## Credits
 
 1. Lauren Groh 
-2. Help from UW Extended Campus Trilogy bootcamp tutor Ismael Lopez, Trilogy starter code and materials.
+2. Help from UW Extended Campus Trilogy bootcamp tutor Ismael Lopez, askBCS team member Manan, and Trilogy starter code and materials.
 
 ## Contributions/Forks
 
