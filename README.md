@@ -16,7 +16,7 @@ This is a book search app built with MongoDB, Express.js, React.js, Node.js, and
 
 ![Book Search Engine That Could screenshot-1](./assets/images/screenshot-1.png "screenshot-1")
 ![Book Search Engine That Could screenshot-2](./assets/images/screenshot-2.png "screenshot-2")
-![Book Search Engine That Could screenshot-3](./assets/images/screenshot-2.png "screenshot-3")
+![Book Search Engine That Could screenshot-3](./assets/images/screenshot-3.png "screenshot-3")
 
 ## Installation
 
