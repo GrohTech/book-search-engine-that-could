@@ -14,8 +14,13 @@ This is a book search app built with MongoDB, Express.js, React.js, Node.js, and
 * [Contributions/Forks](#contributions/forks)
 * [Questions](#questions)
 
+1. Sign up or log in to start searching for books. Click "Save this Book!" to add it to your saved book list:
 ![Book Search Engine That Could screenshot-1](./assets/images/screenshot-1.png "screenshot-1")
+
+2. Click "See Your Books" for a list of your saved books:
 ![Book Search Engine That Could screenshot-2](./assets/images/screenshot-2.png "screenshot-2")
+
+3. Click "Delete this Book!" to remove it from your saved book list:
 ![Book Search Engine That Could screenshot-3](./assets/images/screenshot-3.png "screenshot-3")
 
 ## Installation
